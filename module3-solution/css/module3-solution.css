@@ -1,0 +1,158 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #832246;
+    font-family: 'Oxygen', sans-serif;
+  }
+  
+  /** HEADER **/
+  #header-nav {
+    background-color: #43af6d;
+    border-radius: 0;
+    border: 0;
+  }
+  
+  
+  .navbar-brand {
+    padding-top: 25px;
+  }
+  .navbar-brand h1 { /* Navbar name */
+    font-family: 'Lora', serif;
+    color: #791637;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgb(247, 239, 239);
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+  }
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+ 
+  
+  #nav-list {
+    margin-top: 10px;
+  }
+  #nav-list a {
+    color: #951C49;
+    text-align: center;
+    text-shadow:1px 1px 1px #E7E7E7;
+    font-size: 1.5em;
+  }
+  #nav-list a:hover {
+    background: #E7E7E7;
+  }
+  
+  
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+
+  /* END HEADER */
+  
+  
+  
+  /* HOME PAGE */
+
+    #title{
+    font-family: Caveat;
+    font-weight: 400;
+    font-size: 4em;
+    margin-top: 20px;
+    text-shadow: 2px 2px #b3b7cc;
+}
+
+
+  #section1-tile, #section2-tile, #section3-tile {
+    height: 690px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow:hidden;
+  }
+  #section1-tile:hover, #section2-tile:hover, #section3-tile:hover {
+    box-shadow: 0 1px 5px 1px #cccccc;
+  }
+  
+     
+  #section1-tile span, #section2-tile span, #section3-tile span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+  }
+
+  #section1, #section2, #section3{
+    width: 100%;
+    margin-bottom: 15px;
+    position: absolute;
+    top: 35px;
+    overflow: hidden;
+    font-size: 1.2em;
+    padding: 25px;
+    text-align: justify;
+  }
+  /* END HOME PAGE */
+  
+  
+  
+
+  /********** Extra small devices only **********/
+  @media (max-width: 767px) {
+    /* Header */
+    .navbar-brand {
+      padding-top: 10px;
+      height: 80px;
+    }
+    .navbar-brand h1 { 
+      padding-top: 10px;
+      font-size: 5vw; 
+    }
+  
+    #collapsable-nav a { /* Collapsed nav menu text */
+      font-size: 1.2em;
+    }
+    #collapsable-nav a span { 
+      font-size: 1em;
+      margin-right: 5px;
+    }
+  
+  }
+  
+  
+  /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+  @media (max-width: 479px) {
+    /* Header */
+    .navbar-brand h1 { 
+      padding-top: 5px;
+      font-size: 6vw;
+    }
+    /* End Header */
+    
+  
+    .col-xxs-12 {
+      position: relative;
+      min-height: 1px;
+      padding-right: 15px;
+      padding-left: 15px;
+      float: left;
+      width: 100%;
+    }
+  }
+  
+  
+  
+  
